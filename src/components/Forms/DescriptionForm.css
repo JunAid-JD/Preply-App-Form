@@ -1,0 +1,25 @@
+.description{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+.descriptionimg img{
+    width: 100%;
+    border-radius: 5px;
+}
+.descriptionimg{
+width: 20%;
+}
+.descriptiondetail{
+    width: 75%;
+}
+.descriptiondetail p{
+    margin-top: -1rem;
+}
+.characters{
+    margin-top: -1rem;
+  font-size: 20px;
+}
+label{
+    margin-bottom: 0.5rem;
+}

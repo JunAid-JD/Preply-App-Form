@@ -1,0 +1,14 @@
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formcover{
+    margin: 2rem 0;
+    width: 75%;
+    /* height: 100vh; */
+    background-color: white;
+    box-shadow: 10px 10px 50px rgba(0,0,0,0.5);
+    padding: 2rem;
+}

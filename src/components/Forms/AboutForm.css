@@ -1,0 +1,88 @@
+form{
+    width: 60%;
+}
+.heading{
+    font-size: 2.5rem;
+}
+label{
+    display: block;
+    font-size: 20px;
+}
+input , select,textarea{
+    width: 100%;
+    padding: 0.6rem;
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+    border: 1px solid grey;
+}
+select{
+    width: 103%;
+}
+textarea{
+    border:1px solid grey;
+    font-size: 20px;
+}
+.language{
+    width: 50%;
+}
+.language p{
+ font-size: 20px;
+ color: grey;
+ cursor: pointer;
+}
+#language{
+    background-color: lightgrey;
+    margin-bottom: -1rem;
+}
+
+.level{
+    width: 48%;
+}
+
+.languagelevel{
+    display: flex;
+    justify-content: space-between;
+}
+
+#phonenumber{
+    display: flex;
+    align-items: center;
+    margin: -1rem 0;
+}
+#phonenumber p{
+    color: grey;
+    padding-left: 0.5rem;
+}
+#smsnotification{
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+    color: grey;
+}
+#checkbox{
+    width: 3%;
+}
+
+.checkbox{
+    display: flex;
+    align-items: baseline;
+    margin: -0.5rem 0 1rem;
+}
+.submitbtn{
+    background-color: rgb(8, 186, 245);
+    padding: 0.8rem 1.4rem;
+    color: white;
+    border: transparent;
+    font-size: 18px;
+    cursor: pointer;
+}
+.AddLanguageLevel{
+   display: flex;
+   width: 220%;
+}
+.AddLanguageLevel select{
+    margin-right: 1rem;
+}
+.AddLanguageLevel i{
+         margin-top: 1rem; 
+         cursor: pointer;
+}

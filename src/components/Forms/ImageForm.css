@@ -1,0 +1,53 @@
+#imageform{
+    width: 100%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.col1{
+    width: 58%;
+}
+.col2{
+    width: 38%;
+}
+.photobtn{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 68%;
+}
+.photo{
+    border: 2px dotted grey;
+    height: 80vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0 3rem;
+}
+.grey{
+    color: grey;
+}
+.photoheading{
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+}
+.tipsphoto{
+     display: flex;
+     width: 96%;
+     justify-content: space-between;
+}
+.tipsphoto img{
+    width: 32%;
+    border-radius: 5px;
+}
+#backbtn{
+background-color: rgb(231, 220, 220);
+margin-right: 2rem;
+color: black;
+}
+
+#photobtn{
+    width: 71%;
+}

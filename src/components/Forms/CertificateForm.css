@@ -1,0 +1,24 @@
+#from-to{
+    transform: rotate(90deg);
+    width: 3px;
+    background: black;
+    border: transparent;
+    margin: 2rem;
+}
+.certificate{
+    background-color: aqua;
+    padding: 1rem;
+}
+.certificate i{
+   font-size: 30px;
+   padding-right: 1rem;
+}
+.certificate p{
+  padding-left: 3rem;
+}
+.certificate h5{
+    margin-bottom: -0.5rem;
+  }
+  .addcertificate{
+    padding: 1rem 0rem; 
+  }
